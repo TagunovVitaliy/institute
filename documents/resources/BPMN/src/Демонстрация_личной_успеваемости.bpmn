@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1de64e6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="7.3.0">
+  <bpmn:collaboration id="Collaboration_0km7hbe">
+    <bpmn:participant id="Participant_0g8r2jj" name="Демонстрация личной успеваемости" processRef="Process_1ocn50e" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1ocn50e">
+    <bpmn:laneSet id="LaneSet_0em8o83">
+      <bpmn:lane id="Lane_1n9hyb3" name="Система">
+        <bpmn:flowNodeRef>Activity_12h25u1</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_1qlqrvo" name="Студент">
+        <bpmn:flowNodeRef>Event_1hqszhp</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1nbaqp9</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Event_1hqszhp" name="Выбрана функция демонстрации личной успеваемости">
+      <bpmn:outgoing>Flow_0g1newu</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_12h25u1" name="Демонстрация списка предметов и оценок(баллов)">
+      <bpmn:incoming>Flow_0g1newu</bpmn:incoming>
+      <bpmn:outgoing>Flow_19sqrnf</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="Event_1nbaqp9" name="Получена информация по личной успеваемости">
+      <bpmn:incoming>Flow_19sqrnf</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_19sqrnf" sourceRef="Activity_12h25u1" targetRef="Event_1nbaqp9" />
+    <bpmn:sequenceFlow id="Flow_0g1newu" sourceRef="Event_1hqszhp" targetRef="Activity_12h25u1" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0km7hbe">
+      <bpmndi:BPMNShape id="Participant_0g8r2jj_di" bpmnElement="Participant_0g8r2jj" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="430" height="440" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1qlqrvo_di" bpmnElement="Lane_1qlqrvo" isHorizontal="true">
+        <dc:Bounds x="190" y="300" width="400" height="220" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1n9hyb3_di" bpmnElement="Lane_1n9hyb3" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="400" height="220" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0g1newu_di" bpmnElement="Flow_0g1newu">
+        <di:waypoint x="283" y="390" />
+        <di:waypoint x="312" y="390" />
+        <di:waypoint x="312" y="180" />
+        <di:waypoint x="340" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_19sqrnf_di" bpmnElement="Flow_19sqrnf">
+        <di:waypoint x="440" y="180" />
+        <di:waypoint x="471" y="180" />
+        <di:waypoint x="471" y="390" />
+        <di:waypoint x="502" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_1hqszhp_di" bpmnElement="Event_1hqszhp">
+        <dc:Bounds x="247" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="230" y="415" width="74" height="66" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_12h25u1_di" bpmnElement="Activity_12h25u1">
+        <dc:Bounds x="340" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1nbaqp9_di" bpmnElement="Event_1nbaqp9">
+        <dc:Bounds x="502" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="480" y="415" width="81" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

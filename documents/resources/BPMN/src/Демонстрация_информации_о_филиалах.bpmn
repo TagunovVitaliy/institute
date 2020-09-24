@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_175w8gb" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="7.3.0">
+  <bpmn:collaboration id="Collaboration_05rrao2">
+    <bpmn:participant id="Participant_1km03xz" name="Предоставление информации о филиалах" processRef="Process_11rem14" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_11rem14" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_11bgu1t">
+      <bpmn:lane id="Lane_1dbcxgo" name="Система">
+        <bpmn:flowNodeRef>Activity_01rjrlm</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1ba9yid</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_1ra42f5" name="Руководство института">
+        <bpmn:flowNodeRef>Event_13lsg95</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_0ljempa</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:task id="Activity_01rjrlm" name="Получение информации о всех доступных филиалах">
+      <bpmn:incoming>Flow_1cyxvtx</bpmn:incoming>
+      <bpmn:outgoing>Flow_199tpep</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:startEvent id="Event_13lsg95" name="Выбрана функция просмотр филиалов">
+      <bpmn:outgoing>Flow_1cyxvtx</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_1ba9yid" name="Отобразить список всех доступных филиалов">
+      <bpmn:incoming>Flow_199tpep</bpmn:incoming>
+      <bpmn:outgoing>Flow_1dkipmj</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_1dkipmj" sourceRef="Activity_1ba9yid" targetRef="Event_0ljempa" />
+    <bpmn:sequenceFlow id="Flow_199tpep" sourceRef="Activity_01rjrlm" targetRef="Activity_1ba9yid" />
+    <bpmn:sequenceFlow id="Flow_1cyxvtx" sourceRef="Event_13lsg95" targetRef="Activity_01rjrlm" />
+    <bpmn:endEvent id="Event_0ljempa" name="Получена информация о филиалах">
+      <bpmn:incoming>Flow_1dkipmj</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_05rrao2">
+      <bpmndi:BPMNShape id="Participant_1km03xz_di" bpmnElement="Participant_1km03xz" isHorizontal="true">
+        <dc:Bounds x="150" y="80" width="430" height="403" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1ra42f5_di" bpmnElement="Lane_1ra42f5" isHorizontal="true">
+        <dc:Bounds x="180" y="276" width="400" height="207" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_1dbcxgo_di" bpmnElement="Lane_1dbcxgo" isHorizontal="true">
+        <dc:Bounds x="180" y="80" width="400" height="196" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1cyxvtx_di" bpmnElement="Flow_1cyxvtx">
+        <di:waypoint x="290" y="352" />
+        <di:waypoint x="290" y="221" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_199tpep_di" bpmnElement="Flow_199tpep">
+        <di:waypoint x="340" y="181" />
+        <di:waypoint x="390" y="181" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dkipmj_di" bpmnElement="Flow_1dkipmj">
+        <di:waypoint x="490" y="181" />
+        <di:waypoint x="510" y="181" />
+        <di:waypoint x="510" y="332" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_01rjrlm_di" bpmnElement="Activity_01rjrlm">
+        <dc:Bounds x="240" y="141" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_13lsg95_di" bpmnElement="Event_13lsg95">
+        <dc:Bounds x="272" y="352" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="264" y="395" width="53" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1ba9yid_di" bpmnElement="Activity_1ba9yid">
+        <dc:Bounds x="390" y="141" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0ljempa_di" bpmnElement="Event_0ljempa">
+        <dc:Bounds x="492" y="332" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="473" y="375" width="75" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
