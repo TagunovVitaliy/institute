@@ -1,4 +1,335 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- created with bpmn-js / http://bpmn.io -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1062" height="552" viewBox="154 74 1062 552" version="1.1"><defs><marker id="association-end-white-black-6wfd0yd3jfklss27xscq5aarp" viewBox="0 0 20 20" refX="12" refY="10" markerWidth="10" markerHeight="10" orient="auto"><path d="M 1 5 L 11 10 L 1 15" style="fill: none; stroke-width: 1.5px; stroke-linecap: round; stroke-dasharray: 10000, 1; stroke: black;"/></marker><marker id="sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp" viewBox="0 0 20 20" refX="11" refY="10" markerWidth="10" markerHeight="10" orient="auto"><path d="M 1 5 L 11 10 L 1 15 Z" style="fill: black; stroke-width: 1px; stroke-linecap: round; stroke-dasharray: 10000, 1; stroke: black;"/></marker></defs><g class="djs-group"><g class="djs-element djs-shape new-parent" data-element-id="Participant_181dtyz" style="display: block;" transform="matrix(1 0 0 1 160 80)"><g class="djs-visual"><rect x="0" y="0" width="1050" height="540" rx="0" ry="0" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><polyline points="30,0 30,540 " style="fill: none; stroke: black; stroke-width: 2px;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 540)"><tspan x="154.59375" y="18.6">Редактирование информации о филиале</tspan></text></g><rect x="-6" y="-6" width="1062" height="552" class="djs-outline" style="fill: none;"/><rect class="djs-hit djs-hit-click-stroke" x="0" y="0" width="1050" height="540" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect class="djs-hit djs-hit-all" x="0" y="0" width="30" height="540" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/></g><g class="djs-children"><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Lane_0n57uxl" style="display: block;" transform="matrix(1 0 0 1 190 80)"><g class="djs-visual"><rect x="0" y="0" width="1020" height="240" rx="0" ry="0" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.35;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 240)"><tspan x="95.671875" y="18.6">Система</tspan></text></g><rect x="-6" y="-6" width="1032" height="252" class="djs-outline" style="fill: none;"/><rect class="djs-hit djs-hit-click-stroke" x="0" y="0" width="1020" height="240" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect class="djs-hit djs-hit-all" x="0" y="0" width="30" height="240" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Lane_12ppou5" style="display: block;" transform="matrix(1 0 0 1 190 320)"><g class="djs-visual"><rect x="0" y="0" width="1020" height="300" rx="0" ry="0" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.35;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 300)"><tspan x="85.5078125" y="18.6">Руководство института</tspan></text></g><rect x="-6" y="-6" width="1032" height="312" class="djs-outline" style="fill: none;"/><rect class="djs-hit djs-hit-click-stroke" x="0" y="0" width="1020" height="300" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect class="djs-hit djs-hit-all" x="0" y="0" width="30" height="300" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_0lsj55a" style="display: block;"><g class="djs-visual"><path d="m  510,550L590,550 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="510,550 590,550 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="504" y="544" width="92" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_12qkrle" style="display: block;"><g class="djs-visual"><path d="m  640,510L640,455 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="640,510 640,455 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="634" y="449" width="12" height="67" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_1rb0568" style="display: block;"><g class="djs-visual"><path d="m  1040,260L1040,422 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="1040,260 1040,422 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="1034" y="254" width="12" height="174" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_0ujwlqo" style="display: block;"><g class="djs-visual"><path d="m  790,195L790,120 L1040,120 L1040,180 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="790,195 790,120 1040,120 1040,180 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="784" y="114" width="262" height="87" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_11xvi8t" style="display: block;"><g class="djs-visual"><path d="m  900,260L900,422 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="900,260 900,422 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="894" y="254" width="12" height="174" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_0rblh2o" style="display: block;"><g class="djs-visual"><path d="m  815,220L850,220 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="815,220 850,220 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="809" y="214" width="47" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_1dapqjf" style="display: block;"><g class="djs-visual"><path d="m  790,390L790,300 L670,300 L670,260 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="790,390 790,300 670,300 670,260 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="664" y="254" width="132" height="142" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_18ow4gn" style="display: block;"><g class="djs-visual"><path d="m  460,460L460,510 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="460,460 460,510 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="454" y="454" width="12" height="62" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_17olgog" style="display: block;"><g class="djs-visual"><path d="m  665,430L760,430 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="665,430 760,430 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="659" y="424" width="107" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_1g4f4zq" style="display: block;"><g class="djs-visual"><path d="m  640,405L640,350 L340,350 L340,395 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="640,405 640,350 340,350 340,395 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="334" y="344" width="312" height="67" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_0ckefwj" style="display: block;"><g class="djs-visual"><path d="m  720,220L765,220 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="720,220 765,220 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="714" y="214" width="57" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_115odw6" style="display: block;"><g class="djs-visual"><path d="m  278,420L315,420 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="278,420 315,420 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="272" y="414" width="49" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="Flow_1fatg9h" style="display: block;"><g class="djs-visual"><path d="m  365,420L410,420 " style="fill: none; stroke-width: 2px; stroke: black; stroke-linejoin: round; marker-end: url('#sequenceflow-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="365,420 410,420 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="359" y="414" width="57" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_04eq3dy" style="display: block;" transform="matrix(1 0 0 1 410 380)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="9.796875" y="29.200000000000003">Выбрано поле </tspan><tspan x="39.9921875" y="43.6">для </tspan><tspan x="5.03125" y="58">редактирования</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_0yy86nl" style="display: block;" transform="matrix(1 0 0 1 410 510)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="18.65625" y="29.200000000000003">Изменение </tspan><tspan x="16.8671875" y="43.6">выбранного </tspan><tspan x="37.0390625" y="58">поля</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="DataStoreReference_1fhuudw" style="display: block;" transform="matrix(1 0 0 1 645 95)"><g class="djs-visual"><path d="m  0,6.65 l  0,36.885245901639344 c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0 l  0,-36.885245901639344 c -1.639344262295082,-8.196721311475411 -47.540983606557376,-8.196721311475411 -49.18032786885246,0c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0 m  -49.18032786885246,5.737704918032787c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411 49.18032786885246,0m  -49.18032786885246,5.737704918032787c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0" style="fill: white; stroke-width: 2px; stroke: black; fill-opacity: 0.95;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="50" height="50" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="62" height="62" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Gateway_15dccgy" style="display: block;" transform="matrix(1 0 0 1 765 195)"><g class="djs-visual"><polygon points="25,0 50,25 25,50 0,25" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><path d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z" style="fill: black; stroke-width: 1px; stroke: black;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="50" height="50" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="62" height="62" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_1kunrse" style="display: block;" transform="matrix(1 0 0 1 850 180)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="8.9140625" y="29.200000000000003">Оповещение о </tspan><tspan x="11.2421875" y="43.6">некорректных </tspan><tspan x="29.21875" y="58">данных</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Event_1vlojti" style="display: block;" transform="matrix(1 0 0 1 882 422)"><g class="djs-visual"><circle cx="18" cy="18" r="18" style="stroke: black; stroke-width: 4px; fill: white; fill-opacity: 0.95;"/><path d="m 8.459999999999999,11.34 l 0,12.6 l 18.900000000000002,0 l 0,-12.6 z l 9.450000000000001,5.4 l 9.450000000000001,-5.4" style="fill: black; stroke-width: 1px; stroke: white;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="36" height="36" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="48" height="48" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_09tzqcw" style="display: block;" transform="matrix(1 0 0 1 990 180)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="18.65625" y="36.4">Изменение </tspan><tspan x="29.21875" y="50.8">данных</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Event_0lk7ros" style="display: block;" transform="matrix(1 0 0 1 1022 422)"><g class="djs-visual"><circle cx="18" cy="18" r="18" style="stroke: black; stroke-width: 4px; fill: white; fill-opacity: 0.95;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="36" height="36" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="48" height="48" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="DataStoreReference_17xgktj" style="display: block;" transform="matrix(1 0 0 1 1145 195)"><g class="djs-visual"><path d="m  0,6.65 l  0,36.885245901639344 c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0 l  0,-36.885245901639344 c -1.639344262295082,-8.196721311475411 -47.540983606557376,-8.196721311475411 -49.18032786885246,0c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0 m  -49.18032786885246,5.737704918032787c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411 49.18032786885246,0m  -49.18032786885246,5.737704918032787c  1.639344262295082,8.196721311475411 47.540983606557376,8.196721311475411  49.18032786885246,0" style="fill: white; stroke-width: 2px; stroke: black; fill-opacity: 0.95;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="50" height="50" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="62" height="62" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Gateway_0vuesmf" style="display: block;" transform="matrix(1 0 0 1 615 405)"><g class="djs-visual"><polygon points="25,0 50,25 25,50 0,25" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><path d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z" style="fill: black; stroke-width: 1px; stroke: black;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="50" height="50" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="62" height="62" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_18f3tgl" style="display: block;" transform="matrix(1 0 0 1 760 390)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="24.7578125" y="22">Выбрана </tspan><tspan x="14.484375" y="36.4">функция для </tspan><tspan x="17.671875" y="50.8">сохранения </tspan><tspan x="20.1171875" y="65.19999999999999">изменений</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_1quh9mt" style="display: block;" transform="matrix(1 0 0 1 620 180)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="22.9609375" y="22">Проверка </tspan><tspan x="13.1171875" y="36.4">корректности </tspan><tspan x="5.7109375" y="50.8">всех введенных</tspan><tspan x="29.21875" y="65.19999999999999">данных</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Activity_0c90iqx" style="display: block;" transform="matrix(1 0 0 1 590 510)"><g class="djs-visual"><rect x="0" y="0" width="100" height="80" rx="10" ry="10" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; fill: black;"><tspan x="15.8203125" y="29.200000000000003">Продолжить </tspan><tspan x="8.3828125" y="43.6">редактировани</tspan><tspan x="46.5" y="58">е</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="100" height="80" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="112" height="92" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="StartEvent_0domseb" style="display: block;" transform="matrix(1 0 0 1 242 402)"><g class="djs-visual"><circle cx="18" cy="18" r="18" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="36" height="36" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="48" height="48" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Gateway_01uonk0" style="display: block;" transform="matrix(1 0 0 1 315 395)"><g class="djs-visual"><polygon points="25,0 50,25 25,50 0,25" style="stroke: black; stroke-width: 2px; fill: white; fill-opacity: 0.95;"/><path d="m 16,15 7.42857142857143,9.714285714285715 -7.42857142857143,9.714285714285715 3.428571428571429,0 5.714285714285715,-7.464228571428572 5.714285714285715,7.464228571428572 3.428571428571429,0 -7.42857142857143,-9.714285714285715 7.42857142857143,-9.714285714285715 -3.428571428571429,0 -5.714285714285715,7.464228571428572 -5.714285714285715,-7.464228571428572 -3.428571428571429,0 z" style="fill: black; stroke-width: 1px; stroke: black;"/></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="50" height="50" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="62" height="62" class="djs-outline" style="fill: none;"/></g></g></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Event_0lk7ros_label" style="display: block;" transform="matrix(1 0 0 1 1014 465)"><g class="djs-visual"><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; fill: black;"><tspan x="5.7578125" y="9.899999999999999">Данные </tspan><tspan x="0" y="23.099999999999998">изменены</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="52" height="27" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="64" height="39" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Flow_17olgog_label" style="display: block;" transform="matrix(1 0 0 1 705 412)"><g class="djs-visual"><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; fill: black;"><tspan x="0" y="9.899999999999999">нет</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="17" height="14" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="29" height="26" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="StartEvent_0domseb_label" style="display: block;" transform="matrix(1 0 0 1 223 445)"><g class="djs-visual"><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; fill: black;"><tspan x="12.015625" y="9.899999999999999">Получена </tspan><tspan x="0" y="23.099999999999998">информация о </tspan><tspan x="14.1796875" y="36.3">филиале</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="75" height="40" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="87" height="52" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-shape" data-element-id="Flow_1g4f4zq_label" style="display: block;" transform="matrix(1 0 0 1 483 332)"><g class="djs-visual"><text lineHeight="1.2" class="djs-label" style="font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; fill: black;"><tspan x="0" y="9.899999999999999">да</tspan></text></g><rect class="djs-hit djs-hit-all" x="0" y="0" width="14" height="14" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="-6" y="-6" width="26" height="26" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="DataOutputAssociation_0o4tv7b" style="display: block;"><g class="djs-visual"><polyline points="690,180 690,145 " style="fill: none; stroke: black; stroke-width: 2px; stroke-dasharray: 0.5, 5; stroke-linecap: round; stroke-linejoin: round; marker-end: url('#association-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="690,180 690,145 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="684" y="139" width="12" height="47" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="DataInputAssociation_1djt2yk" style="display: block;"><g class="djs-visual"><polyline points="650,145 650,180 " style="fill: none; stroke: black; stroke-width: 2px; stroke-dasharray: 0.5, 5; stroke-linecap: round; stroke-linejoin: round; marker-end: url('#association-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="650,145 650,180 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="644" y="139" width="12" height="47" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="DataInputAssociation_1o8x1kc" style="display: block;"><g class="djs-visual"><polyline points="1145,230 1090,230 " style="fill: none; stroke: black; stroke-width: 2px; stroke-dasharray: 0.5, 5; stroke-linecap: round; stroke-linejoin: round; marker-end: url('#association-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="1145,230 1090,230 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="1084" y="224" width="67" height="12" class="djs-outline" style="fill: none;"/></g></g><g class="djs-group"><g class="djs-element djs-connection" data-element-id="DataOutputAssociation_1w2dcw2" style="display: block;"><g class="djs-visual"><polyline points="1090,210 1145,210 " style="fill: none; stroke: black; stroke-width: 2px; stroke-dasharray: 0.5, 5; stroke-linecap: round; stroke-linejoin: round; marker-end: url('#association-end-white-black-6wfd0yd3jfklss27xscq5aarp');"/></g><polyline points="1090,210 1145,210 " class="djs-hit djs-hit-stroke" style="fill: none; stroke-opacity: 0; stroke: white; stroke-width: 15px;"/><rect x="1084" y="204" width="67" height="12" class="djs-outline" style="fill: none;"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1b0c8k2" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="7.3.0">
+  <bpmn:collaboration id="Collaboration_08t2ptc">
+    <bpmn:participant id="Participant_181dtyz" name="Редактирование информации о филиале" processRef="Process_0e0unda" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0e0unda" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_07lc23o">
+      <bpmn:lane id="Lane_0n57uxl" name="Система">
+        <bpmn:flowNodeRef>Activity_09tzqcw</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1kunrse</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_15dccgy</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_01p5to5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1quh9mt</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_1kx2yf2</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_12ppou5" name="Руководство института">
+        <bpmn:flowNodeRef>Event_0lk7ros</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1vlojti</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_18f3tgl</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_0vuesmf</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0yy86nl</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_04eq3dy</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_08gg5rc</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_15y3dmn</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>StartEvent_0domseb</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0c90iqx</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:dataStoreReference id="DataStoreReference_17xgktj" />
+    <bpmn:task id="Activity_09tzqcw" name="Изменение данных">
+      <bpmn:incoming>Flow_0ujwlqo</bpmn:incoming>
+      <bpmn:outgoing>Flow_1rb0568</bpmn:outgoing>
+      <bpmn:property id="Property_0d4rgk9" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_1o8x1kc">
+        <bpmn:sourceRef>DataStoreReference_17xgktj</bpmn:sourceRef>
+        <bpmn:targetRef>Property_0d4rgk9</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_1w2dcw2">
+        <bpmn:targetRef>DataStoreReference_17xgktj</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Activity_1kunrse" name="Оповещение о некорректных данных">
+      <bpmn:incoming>Flow_0rblh2o</bpmn:incoming>
+      <bpmn:outgoing>Flow_11xvi8t</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_15dccgy">
+      <bpmn:incoming>Flow_0ckefwj</bpmn:incoming>
+      <bpmn:outgoing>Flow_0rblh2o</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0ujwlqo</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="Event_0lk7ros" name="Данные изменены">
+      <bpmn:incoming>Flow_1rb0568</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:endEvent id="Event_1vlojti">
+      <bpmn:incoming>Flow_11xvi8t</bpmn:incoming>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_04ga29i" />
+    </bpmn:endEvent>
+    <bpmn:dataStoreReference id="DataStoreReference_1fhuudw" />
+    <bpmn:task id="Activity_18f3tgl" name="Выбрана функция для сохранения изменений">
+      <bpmn:incoming>Flow_17olgog</bpmn:incoming>
+      <bpmn:outgoing>Flow_1dapqjf</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_0vuesmf">
+      <bpmn:incoming>Flow_12qkrle</bpmn:incoming>
+      <bpmn:outgoing>Flow_17olgog</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0gbgrj0</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Activity_0yy86nl" name="Изменение выбранного поля">
+      <bpmn:incoming>Flow_18ow4gn</bpmn:incoming>
+      <bpmn:outgoing>Flow_0lsj55a</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_04eq3dy" name="Выбрано поле для редактирования">
+      <bpmn:incoming>Flow_1079scu</bpmn:incoming>
+      <bpmn:outgoing>Flow_18ow4gn</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_08gg5rc" name="Выбор филиала для редактирования">
+      <bpmn:incoming>Flow_0i10qxa</bpmn:incoming>
+      <bpmn:outgoing>Flow_0i9h1kk</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_15y3dmn">
+      <bpmn:incoming>Flow_10u58y3</bpmn:incoming>
+      <bpmn:incoming>Flow_0gbgrj0</bpmn:incoming>
+      <bpmn:outgoing>Flow_1079scu</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:startEvent id="StartEvent_0domseb" name="Выбрана функция редактирования информации о филиале">
+      <bpmn:outgoing>Flow_0eupa8k</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_01p5to5" name="Демонстрация формы изменения информации о филиале">
+      <bpmn:incoming>Flow_0i9h1kk</bpmn:incoming>
+      <bpmn:outgoing>Flow_10u58y3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:subProcess id="Activity_1quh9mt" name="Проверка корректности всех введенных данных">
+      <bpmn:incoming>Flow_1dapqjf</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ckefwj</bpmn:outgoing>
+      <bpmn:property id="Property_1tivfjn" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_1djt2yk">
+        <bpmn:sourceRef>DataStoreReference_1fhuudw</bpmn:sourceRef>
+        <bpmn:targetRef>Property_1tivfjn</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_0o4tv7b">
+        <bpmn:targetRef>DataStoreReference_1fhuudw</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:subProcess>
+    <bpmn:subProcess id="Activity_0c90iqx" name="Продолжить редактирование">
+      <bpmn:incoming>Flow_0lsj55a</bpmn:incoming>
+      <bpmn:outgoing>Flow_12qkrle</bpmn:outgoing>
+    </bpmn:subProcess>
+    <bpmn:subProcess id="Activity_1kx2yf2">
+      <bpmn:incoming>Flow_0eupa8k</bpmn:incoming>
+      <bpmn:outgoing>Flow_0i10qxa</bpmn:outgoing>
+      <bpmn:startEvent id="Event_1yw2cyq">
+        <bpmn:outgoing>Flow_0co2qat</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_19jj519" name="Демонстрация списка филиалов">
+        <bpmn:incoming>Flow_0co2qat</bpmn:incoming>
+        <bpmn:outgoing>Flow_0f8q0pt</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:sequenceFlow id="Flow_0co2qat" sourceRef="Event_1yw2cyq" targetRef="Activity_19jj519" />
+      <bpmn:endEvent id="Event_0cujwv5">
+        <bpmn:incoming>Flow_0f8q0pt</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:sequenceFlow id="Flow_0f8q0pt" sourceRef="Activity_19jj519" targetRef="Event_0cujwv5" />
+    </bpmn:subProcess>
+    <bpmn:sequenceFlow id="Flow_0lsj55a" sourceRef="Activity_0yy86nl" targetRef="Activity_0c90iqx" />
+    <bpmn:sequenceFlow id="Flow_12qkrle" sourceRef="Activity_0c90iqx" targetRef="Gateway_0vuesmf" />
+    <bpmn:sequenceFlow id="Flow_1rb0568" sourceRef="Activity_09tzqcw" targetRef="Event_0lk7ros" />
+    <bpmn:sequenceFlow id="Flow_0ujwlqo" name="Данные введены корректно" sourceRef="Gateway_15dccgy" targetRef="Activity_09tzqcw" />
+    <bpmn:sequenceFlow id="Flow_11xvi8t" name="Данные введены некорректно" sourceRef="Activity_1kunrse" targetRef="Event_1vlojti" />
+    <bpmn:sequenceFlow id="Flow_0rblh2o" sourceRef="Gateway_15dccgy" targetRef="Activity_1kunrse" />
+    <bpmn:sequenceFlow id="Flow_1dapqjf" sourceRef="Activity_18f3tgl" targetRef="Activity_1quh9mt" />
+    <bpmn:sequenceFlow id="Flow_18ow4gn" sourceRef="Activity_04eq3dy" targetRef="Activity_0yy86nl" />
+    <bpmn:sequenceFlow id="Flow_17olgog" name="нет" sourceRef="Gateway_0vuesmf" targetRef="Activity_18f3tgl" />
+    <bpmn:sequenceFlow id="Flow_0ckefwj" sourceRef="Activity_1quh9mt" targetRef="Gateway_15dccgy" />
+    <bpmn:sequenceFlow id="Flow_10u58y3" sourceRef="Activity_01p5to5" targetRef="Gateway_15y3dmn" />
+    <bpmn:sequenceFlow id="Flow_0i9h1kk" sourceRef="Activity_08gg5rc" targetRef="Activity_01p5to5" />
+    <bpmn:sequenceFlow id="Flow_1079scu" sourceRef="Gateway_15y3dmn" targetRef="Activity_04eq3dy" />
+    <bpmn:sequenceFlow id="Flow_0gbgrj0" name="да" sourceRef="Gateway_0vuesmf" targetRef="Gateway_15y3dmn" />
+    <bpmn:sequenceFlow id="Flow_0i10qxa" sourceRef="Activity_1kx2yf2" targetRef="Activity_08gg5rc" />
+    <bpmn:sequenceFlow id="Flow_0eupa8k" sourceRef="StartEvent_0domseb" targetRef="Activity_1kx2yf2" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_08t2ptc">
+      <bpmndi:BPMNShape id="Participant_181dtyz_di" bpmnElement="Participant_181dtyz" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1250" height="610" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0n57uxl_di" bpmnElement="Lane_0n57uxl" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1220" height="310" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_12ppou5_di" bpmnElement="Lane_12ppou5" isHorizontal="true">
+        <dc:Bounds x="190" y="390" width="1220" height="300" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0lsj55a_di" bpmnElement="Flow_0lsj55a">
+        <di:waypoint x="800" y="620" />
+        <di:waypoint x="870" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_12qkrle_di" bpmnElement="Flow_12qkrle">
+        <di:waypoint x="920" y="580" />
+        <di:waypoint x="920" y="553" />
+        <di:waypoint x="810" y="553" />
+        <di:waypoint x="810" y="525" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1rb0568_di" bpmnElement="Flow_1rb0568">
+        <di:waypoint x="1190" y="330" />
+        <di:waypoint x="1190" y="492" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ujwlqo_di" bpmnElement="Flow_0ujwlqo">
+        <di:waypoint x="920" y="265" />
+        <di:waypoint x="920" y="190" />
+        <di:waypoint x="1190" y="190" />
+        <di:waypoint x="1190" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1012" y="172" width="86" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_11xvi8t_di" bpmnElement="Flow_11xvi8t">
+        <di:waypoint x="1040" y="330" />
+        <di:waypoint x="1040" y="492" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1012" y="408" width="86" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0rblh2o_di" bpmnElement="Flow_0rblh2o">
+        <di:waypoint x="945" y="290" />
+        <di:waypoint x="990" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dapqjf_di" bpmnElement="Flow_1dapqjf">
+        <di:waypoint x="910" y="460" />
+        <di:waypoint x="910" y="410" />
+        <di:waypoint x="830" y="410" />
+        <di:waypoint x="830" y="330" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18ow4gn_di" bpmnElement="Flow_18ow4gn">
+        <di:waypoint x="710" y="540" />
+        <di:waypoint x="710" y="560" />
+        <di:waypoint x="750" y="560" />
+        <di:waypoint x="750" y="580" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_17olgog_di" bpmnElement="Flow_17olgog">
+        <di:waypoint x="835" y="500" />
+        <di:waypoint x="880" y="500" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="849" y="482" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ckefwj_di" bpmnElement="Flow_0ckefwj">
+        <di:waypoint x="860" y="290" />
+        <di:waypoint x="895" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_10u58y3_di" bpmnElement="Flow_10u58y3">
+        <di:waypoint x="640" y="380" />
+        <di:waypoint x="640" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0i9h1kk_di" bpmnElement="Flow_0i9h1kk">
+        <di:waypoint x="450" y="500" />
+        <di:waypoint x="475" y="500" />
+        <di:waypoint x="475" y="340" />
+        <di:waypoint x="590" y="340" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1079scu_di" bpmnElement="Flow_1079scu">
+        <di:waypoint x="640" y="445" />
+        <di:waypoint x="640" y="500" />
+        <di:waypoint x="660" y="500" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0gbgrj0_di" bpmnElement="Flow_0gbgrj0">
+        <di:waypoint x="810" y="475" />
+        <di:waypoint x="810" y="420" />
+        <di:waypoint x="665" y="420" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="819" y="445" width="12" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0i10qxa_di" bpmnElement="Flow_0i10qxa">
+        <di:waypoint x="400" y="300" />
+        <di:waypoint x="400" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0eupa8k_di" bpmnElement="Flow_0eupa8k">
+        <di:waypoint x="280" y="482" />
+        <di:waypoint x="280" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="DataStoreReference_17xgktj_di" bpmnElement="DataStoreReference_17xgktj">
+        <dc:Bounds x="1275" y="265" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_09tzqcw_di" bpmnElement="Activity_09tzqcw">
+        <dc:Bounds x="1140" y="250" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1kunrse_di" bpmnElement="Activity_1kunrse">
+        <dc:Bounds x="990" y="250" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_15dccgy_di" bpmnElement="Gateway_15dccgy" isMarkerVisible="true">
+        <dc:Bounds x="895" y="265" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0lk7ros_di" bpmnElement="Event_0lk7ros">
+        <dc:Bounds x="1172" y="492" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1164" y="535" width="52" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1j7qgtf_di" bpmnElement="Event_1vlojti">
+        <dc:Bounds x="1022" y="492" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1fhuudw_di" bpmnElement="DataStoreReference_1fhuudw">
+        <dc:Bounds x="785" y="165" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_18f3tgl_di" bpmnElement="Activity_18f3tgl">
+        <dc:Bounds x="880" y="460" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0vuesmf_di" bpmnElement="Gateway_0vuesmf" isMarkerVisible="true">
+        <dc:Bounds x="785" y="475" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0yy86nl_di" bpmnElement="Activity_0yy86nl">
+        <dc:Bounds x="700" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_04eq3dy_di" bpmnElement="Activity_04eq3dy">
+        <dc:Bounds x="660" y="460" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_08gg5rc_di" bpmnElement="Activity_08gg5rc">
+        <dc:Bounds x="350" y="460" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_15y3dmn_di" bpmnElement="Gateway_15y3dmn" isMarkerVisible="true">
+        <dc:Bounds x="615" y="395" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_0domseb">
+        <dc:Bounds x="262" y="482" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="239" y="525" width="83" height="66" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_01p5to5_di" bpmnElement="Activity_01p5to5">
+        <dc:Bounds x="590" y="300" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0e4j4nz_di" bpmnElement="Activity_1quh9mt">
+        <dc:Bounds x="760" y="250" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0qw4b3t_di" bpmnElement="Activity_0c90iqx">
+        <dc:Bounds x="870" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1kx2yf2_di" bpmnElement="Activity_1kx2yf2" isExpanded="true">
+        <dc:Bounds x="240" y="100" width="350" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0co2qat_di" bpmnElement="Flow_0co2qat">
+        <di:waypoint x="316" y="200" />
+        <di:waypoint x="360" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0f8q0pt_di" bpmnElement="Flow_0f8q0pt">
+        <di:waypoint x="460" y="200" />
+        <di:waypoint x="512" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_1yw2cyq_di" bpmnElement="Event_1yw2cyq">
+        <dc:Bounds x="280" y="182" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19jj519_di" bpmnElement="Activity_19jj519">
+        <dc:Bounds x="360" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0cujwv5_di" bpmnElement="Event_0cujwv5">
+        <dc:Bounds x="512" y="182" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataInputAssociation_1o8x1kc_di" bpmnElement="DataInputAssociation_1o8x1kc">
+        <di:waypoint x="1275" y="300" />
+        <di:waypoint x="1240" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_1w2dcw2_di" bpmnElement="DataOutputAssociation_1w2dcw2">
+        <di:waypoint x="1240" y="280" />
+        <di:waypoint x="1275" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_1djt2yk_di" bpmnElement="DataInputAssociation_1djt2yk">
+        <di:waypoint x="790" y="215" />
+        <di:waypoint x="790" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_0o4tv7b_di" bpmnElement="DataOutputAssociation_0o4tv7b">
+        <di:waypoint x="830" y="250" />
+        <di:waypoint x="830" y="215" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
