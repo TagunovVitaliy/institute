@@ -13,7 +13,7 @@ class TestCreateTeacher(unittest.TestCase):
         self.assertEqual(self.logic.interface, self.interface)
 
     def test_create_teacher(self):
-        new = Teacher(1, "Ivan Ivanov", TeacherType.scientific_director)
+        new = Teacher(1, "Ivan Ivanov", TeacherType.part_time_teacher, [])
         idx = self.logic.add_teacher(new)
         self.assertEqual(idx, new.get_teacher_id())
         self.assertEqual(self.logic.interface.get_teacher_by_id(idx), new)
@@ -34,7 +34,6 @@ class TestCreateTeacher(unittest.TestCase):
         with self.assertRaises(RuntimeError) as exception_msg:
             self.logic.del_teacher(delete_id)
             self.assertEqual(str(exception_msg), f"Delete: No Teacher by this id {delete_id} in Storage")
-
 
 if __name__ == '__main__':
     unittest.main()

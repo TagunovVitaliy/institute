@@ -2,17 +2,17 @@ from .Scientific_activities import ScientificActivity
 from .Enums import TeacherType
 
 class Teacher:
-    def __init__(self, id: int, name: str, role: TeacherType, **kwargs):
+    def __init__(self, id: int, name: str, role: TeacherType, scientific_activities: list):
         self.teacher_id = id
         self.name = name
         self.role = role
+        self.scientific_activities = scientific_activities
         if not (
                 isinstance(name, str) and
                 isinstance(id, int)
         ):
             raise TypeError
-        if 'scientific_activities' in kwargs:
-            self.scientific_activities = kwargs['scientific_activities']
+
 
     def get_teacher_id(self):
         return self.teacher_id
@@ -29,7 +29,7 @@ class Teacher:
     def set_name(self, name):
         self.name = name
 
-    def set_role(self, role):
+    def set_role(self, role: TeacherType):
         self.role = role
 
     def set_scientific_activities(self, scientific_activities):
@@ -37,3 +37,4 @@ class Teacher:
 
     def add_activity(self, s_activity: ScientificActivity):
         self.scientific_activities.append(s_activity)
+        return True

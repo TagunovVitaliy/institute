@@ -4,11 +4,11 @@ class ReadyStorage(Interface):
 
     def __init__(self):
         super().__init__()
-        self.teacher = [Teacher(0, "Shustova Larisa", TeacherType.scientific_director)]
+        self.teacher = [Teacher(0, "Shustova Larisa", TeacherType.part_time_teacher, [])]
         self.s_activity = [ScientificActivity(0, "Programming", [])]
         self.user = [User(0, "Tagunov Vitaliy")]
-        self.i_plan = [IndividualPlan(0, "Plan", [])]
-        self.s_work = [ScientificWork(0, "Information system development", [], date(3000, 1, 1), 1, [])]
+        self.i_plan = [IndividualPlan(0, "Plan", date(3000, 1, 1), [])]
+        self.s_work = [ScientificWork(0, "Information system development", 5, date(3000, 1, 1), date(3000, 1, 1), ScientificWorkType.seminar, [])]
 
     def get_teacher_by_id(self, teacher_id: int) -> Teacher:
         for teacher in self.teacher:
@@ -41,6 +41,8 @@ class ReadyStorage(Interface):
         raise RuntimeError(f"Get: No Scientific Work by this id {s_work_id} in Storage")
 
     def create_teacher(self, teacher: Teacher) -> int:
+        if teacher.get_role() != TeacherType.part_time_teacher:
+            raise ValueError(f"Add: Teacher with id {teacher.get_teacher_id()} is not part-time")
         for existing in self.teacher:
             if existing.get_teacher_id() == teacher.get_teacher_id():
                 raise RuntimeError(f"Add: Teacher with id {teacher.get_teacher_id()} already in Storage")

@@ -77,3 +77,4 @@ class Interface:
 
     def del_s_work_by_id(self, s_work_id: int) -> int:
         pass
+

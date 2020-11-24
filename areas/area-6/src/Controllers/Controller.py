@@ -45,6 +45,8 @@ class Controller:
                 teacher.set_name(value)
             elif key == "role":
                 teacher.set_role(value)
+            elif key == "scientific_activities":
+                teacher.set_scientific_activities(value)
         return self.interface.upd_teacher(teacher)
 
     def upd_s_activity(self, s_activity_id: int, info: dict) -> int:
@@ -79,18 +81,22 @@ class Controller:
                 s_work.set_name(value)
             elif key == "points":
                 s_work.set_points(value)
-            elif key == "term":
-                s_work.set_term(value)
+            elif key == "term_date":
+                s_work.set_term_date(value)
+            elif key == "actual_date":
+                s_work.set_actual_date(value)
             elif key == "type":
                 s_work.set_type(value)
             elif key == "stages":
                 s_work.set_stages(value)
         return self.interface.upd_s_work(s_work)
 
-    def add_s_activity_to_teacher(self, teacher_id, scientific_activity: ScientificActivity):
-        teacher = self.interface.get_teacher_by_id(teacher_id)
+    def add_s_activity_to_teacher(self, teacher_id: int, scientific_activity: ScientificActivity) -> int:
         try:
-            self.interface.get_teacher_by_id(teacher.get_teacher_id())
+            self.interface.get_s_activity_by_id(scientific_activity.get_s_activity_id())
         except RuntimeError:
-            self.interface.create_teacher(teacher)
+            self.interface.create_scientific_activity(scientific_activity)
+        teacher = self.interface.get_teacher_by_id(teacher_id)
+            #if teacher.add_activity(scientific_activity) is False:
+               # raise RuntimeError(f"Teacher with id {teacher_id} fully equipped")
         return self.interface.upd_teacher(teacher)

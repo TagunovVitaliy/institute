@@ -1,7 +1,6 @@
 import unittest
 from ..Controllers.Controller import *
 from .Storage import *
-import copy
 
 
 class TestCreateTeacher(unittest.TestCase):
