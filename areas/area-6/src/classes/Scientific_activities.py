@@ -29,8 +29,9 @@ class ScientificActivity:
     def set_users(self, users: list):
         self.users = users
 
-    def add_users(self, user: User):
+    def add_user(self, user: User):
         self.users.append(user)
+        return True
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):

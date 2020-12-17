@@ -6,9 +6,9 @@ class ReadyStorage(Interface):
         super().__init__()
         self.teacher = [Teacher(0, "Shustova Larisa", TeacherType.part_time_teacher, [])]
         self.s_activity = [ScientificActivity(0, "Programming", [])]
-        self.user = [User(0, "Tagunov Vitaliy")]
+        self.user = [User(0, "Tagunov Vitaliy", [])]
         self.i_plan = [IndividualPlan(0, "Plan", date(3000, 1, 1), [])]
-        self.s_work = [ScientificWork(0, "Information system development", 5, date(3000, 1, 1), date(3000, 1, 1), ScientificWorkType.seminar, [])]
+        self.s_work = [ScientificWork(0, "Information system development", 5, date(3000, 1, 1), date(3000, 1, 1), ScientificWorkType.seminar, [], ScientificWorkStatus.none)]
 
     def get_teacher_by_id(self, teacher_id: int) -> Teacher:
         for teacher in self.teacher:
@@ -106,6 +106,7 @@ class ReadyStorage(Interface):
         raise RuntimeError(f"Update: No Individual plan by this id {individual_plan.get_i_plan_id()} in Storage")
 
     def upd_s_work(self, scientific_work: ScientificWork) -> int:
+        scientific_work.check_status()
         for i, existing in enumerate(self.s_work):
             if existing.get_s_work_id() == scientific_work.get_s_work_id():
                 self.s_work[i] = scientific_work

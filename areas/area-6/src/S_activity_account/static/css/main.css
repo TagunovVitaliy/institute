@@ -1,0 +1,242 @@
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+header {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #a849ff82;
+    text-align: center;
+    display: block;
+}
+
+header > a {
+    color: #363535;
+    font-size: 25px;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+header > a:hover {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0f8ff;
+}
+
+.menu {
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.menu > a {
+    display: block;
+    background: #fdeaa8;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px;
+    font-size: 20px;
+    padding:10px;
+    margin: 40px;
+    text-decoration:none;
+    color: black;
+}
+
+.error {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ff0f0f8f;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+}
+
+.created {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #00ff0078;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+}
+
+.create {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.create > label {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+    text-align: left;
+}
+
+.create > label > span {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+
+.create > label > input {
+    flex: 2;
+}
+
+.create > label > table {
+	width: auto;
+	height: 100%;
+    flex: 2;
+}
+
+.create > label > select {
+    flex: 2;
+    margin-left: -4px;
+}
+
+.td_input {
+    height: 28px;
+    text-align: left;
+    flex: 3;
+}
+
+.td_input > input {
+	width: 100%;
+	height: 100%;
+	margin-left: -6px;
+}
+
+.td_button {
+    width: 100px;
+    text-align: center;
+    flex: 1;
+}
+
+td > button {
+    font-size: 14px;
+    color: white;
+    background-color: #f30505;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+td > button:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #c90909
+}
+
+td > button:focus {
+    outline: none;
+}
+
+#add {
+    width: 100px;
+    background-color: #5cb85c;
+}
+
+#add:hover {
+    background-color: #259225
+}
+
+.create > input {
+    margin-top: 17px;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #07b3dc;
+    color: white;
+}
+
+.create > input:hover {
+	text-decoration: none;
+	background-color: #0787dc;
+}
+
+.print {
+    max-width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.employee > a {
+    color: #363535;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 35px;
+    display: block;
+    text-align: center;
+}
+
+.employee > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.result-table {
+  border-collapse: collapse;
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+  color: #0C213B;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+caption {
+ padding: 20px;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size: 23px;
+ font-weight: bold;
+}
+
+th {
+  border: 1px solid #A9E2CC;
+}
+
+.result-table > tbody  > tr > td {
+  font-size: 18px;
+  padding: 8px 12px;
+  border: 1px solid #A9E2CC;
+}
+
+.send {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#dynamic_field {
+    display: flex;
+}
+
+#dynamic_field > tbody > tr {
+    display: flex;
+}
+
+tbody {
+    width: 100%;
+}
+

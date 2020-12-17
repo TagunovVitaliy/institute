@@ -35,6 +35,7 @@ class IndividualPlan:
 
     def add_scientific_work(self, scientific_work: ScientificWork):
         self.scientific_works.append(scientific_work)
+        return True
 
     def get_statistic(self):
         pass

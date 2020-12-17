@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+{% load mathfilters %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>sa</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+    <script type="text/javascript" src="{% static "js/jquery-3.5.1.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/main.js" %}"></script>
+</head>
+<header>
+    <a href="/sa">
+        Главное меню
+    </a>
+</header>
+<body>
+<div class="print">
+    <table class="result-table">
+    <caption>Научные деятельности</caption>
+    <tr>
+        <td>ID Научной деятельности</td>
+        <td>Атрибут</td>
+        <td>Значение</td>
+    </tr>
+    {% for s_activity in data %}
+        <tr>
+        {% with len_teach=s_activity.teachers|length|mul:4|add:3 %}
+            <td rowspan="{{ len_teach }}">{{ s_activity.s_activity_id }}</td>
+            <td>Название:</td>
+            <td>{{ s_activity.s_activity_name }}</td>
+        {% endwith %}
+        </tr>
+        <tr>
+            <td>Описание:</td>
+            <td>{{ s_activity.description }}</td>
+        </tr>
+        <tr>
+            <td rowspan="{{ s_activity.teachers|length|mul:4|add:1 }}">Научные руководители:</td>
+            <td>ID Руководителя</td>
+            <td>Атрибут</td>
+            <td>Значение</td>
+        </tr>
+        {% for teacher in s_activity.teachers %}
+            <tr>
+                <td rowspan="4">{{ teacher.teacher_id }}</td>
+            </tr>
+            <tr>
+                <td>Имя:</td>
+                <td>{{ teacher.name }}</td>
+            </tr>
+            <tr>
+                <td>Фамилия:</td>
+                <td>{{ teacher.surname }}</td>
+            </tr>
+            <tr>
+                <td>Ставка:</td>
+                <td>
+                {%if teacher.role == 'FULL_TIME_TEACHER' %}
+                        Полная
+                    {% else %}
+                       Совместитель
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    {% endfor %}
+</table>
+</div>
+</body>
+</html>

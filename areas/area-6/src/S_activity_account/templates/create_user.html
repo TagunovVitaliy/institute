@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>sa</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+    <script type="text/javascript" src="{% static "js/jquery-3.5.1.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/main.js" %}"></script>
+</head>
+<header>
+    <a href="/sa">
+        Главное меню
+    </a>
+</header>
+<body>
+<div class="create">
+    <label>
+        <span>ID Научного руководителя:</span>
+        <input type="text" id="teacher_id" placeholder="ID Научного руководителя...">
+    </label>
+    <label>
+        <span>ФИО:</span>
+        <input type="text" id="name" placeholder="ФИО...">
+    </label>
+    <input type="button" class="send" onclick="AddUser()" value="Добавить">
+</div>
+</body>
+</html>

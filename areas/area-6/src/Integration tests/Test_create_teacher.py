@@ -1,8 +1,6 @@
 import unittest
-#from ..Controllers.Create_teacher import *
 from ..Controllers.Controller import *
 from .Storage import *
-import copy
 
 
 class TestCreateTeacher(unittest.TestCase):
@@ -23,6 +21,13 @@ class TestCreateTeacher(unittest.TestCase):
             self.logic.add_teacher(existing)
             self.assertEqual(str(exception_msg), f"Add: Teacher with id {existing.get_teacher_id()} "
                                                  f"already in Storage")
+
+    def test_teacher_could_not_be_created_with_type_full_time(self):
+        with self.assertRaises(ValueError) as exception_msg:
+            new = Teacher(2, "Ivan Ivanov", TeacherType.full_time_teacher, [])
+            idx = self.logic.add_teacher(new)
+            self.assertEqual(str(exception_msg), f"Create: Full time teachers cannot be created, id={idx}")
+
 
     def test_delete_teacher(self):
         delete_id = 0

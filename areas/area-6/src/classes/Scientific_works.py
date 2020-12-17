@@ -2,9 +2,10 @@ from datetime import *
 import datetime
 from .Stages import Stage
 from .Enums import ScientificWorkType
+from .Enums import ScientificWorkStatus
 
 class ScientificWork:
-    def __init__(self, id, name, point, term_date, actual_date, type, stages):
+    def __init__(self, id, name, point, term_date, actual_date, type, stages, status):
         self.id = id
         self.name = name
         self.point = point
@@ -18,6 +19,7 @@ class ScientificWork:
         ):
             raise TypeError
         self.stages = stages
+        self.status = status
 
     def get_s_work_id(self):
         return self.id
@@ -40,6 +42,9 @@ class ScientificWork:
     def get_stages(self):
         return self.stages
 
+    def get_status(self):
+        return self.status
+
     def set_name(self, name):
         self.name = name
 
@@ -58,6 +63,9 @@ class ScientificWork:
     def set_stages(self, stages):
         self.stages = stages
 
+    def set_status(self, status):
+        self.status = status
+
     def add_stage(self, stage: Stage):
         self.stages.append(stage)
 
@@ -66,5 +74,9 @@ class ScientificWork:
             return True
         else:
             return False
+
+    def check_status(self):
+        if self.status == ScientificWorkStatus.done:
+            self.actual_date = date.today()
 
  #   def get_statistic(self):

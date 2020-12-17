@@ -63,6 +63,8 @@ class Controller:
         for key, value in info.items():
             if key == "name":
                 user.set_name(value)
+            elif key == "individual_plans":
+                user.set_i_plans(value)
         return self.interface.upd_user(user)
 
     def upd_i_plan(self, i_plan_id: int, info: dict) -> int:
@@ -70,6 +72,8 @@ class Controller:
         for key, value in info.items():
             if key == "name":
                 individual_plan.set_name(value)
+            elif key == "start_date":
+                individual_plan.set_start_date(value)
             elif key == "scientific_works":
                 individual_plan.set_scientific_works(value)
         return self.interface.upd_i_plan(individual_plan)
@@ -79,7 +83,7 @@ class Controller:
         for key, value in info.items():
             if key == "name":
                 s_work.set_name(value)
-            elif key == "points":
+            elif key == "point":
                 s_work.set_points(value)
             elif key == "term_date":
                 s_work.set_term_date(value)
@@ -89,6 +93,8 @@ class Controller:
                 s_work.set_type(value)
             elif key == "stages":
                 s_work.set_stages(value)
+            elif key == "status":
+                s_work.set_status(value)
         return self.interface.upd_s_work(s_work)
 
     def add_s_activity_to_teacher(self, teacher_id: int, scientific_activity: ScientificActivity) -> int:
@@ -100,3 +106,27 @@ class Controller:
             #if teacher.add_activity(scientific_activity) is False:
                # raise RuntimeError(f"Teacher with id {teacher_id} fully equipped")
         return self.interface.upd_teacher(teacher)
+
+    def add_user_to_s_activity(self, s_activity_id: int, user: User) -> int:
+        try:
+            self.interface.get_user_by_id(user.get_user_id())
+        except RuntimeError:
+            self.interface.create_user(user)
+        s_activity = self.interface.get_s_activity_by_id(s_activity_id)
+        return self.interface.upd_s_activity(s_activity)
+
+    def add_i_plan_to_user(self, user_id: int, i_plan: IndividualPlan) -> int:
+        try:
+            self.interface.get_individual_plan_by_id(i_plan.get_i_plan_id())
+        except RuntimeError:
+            self.interface.create_individual_plan(i_plan)
+        user = self.interface.get_user_by_id(user_id)
+        return self.interface.upd_user(user)
+
+    def add_s_work_to_i_plan(self, i_plan_id: int, s_work: ScientificWork) -> int:
+        try:
+            self.interface.get_s_work_by_id(s_work.get_s_work_id())
+        except RuntimeError:
+            self.interface.create_scientific_work(s_work)
+        i_plan = self.interface.get_individual_plan_by_id(i_plan_id)
+        return self.interface.upd_i_plan(i_plan)
